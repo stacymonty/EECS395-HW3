@@ -81,3 +81,6 @@ def quad_key_to_tileXY(quad_key, tileX, tileY):
             tileX |= mask
             tileY |= mask
         i-=1
+        
+def main():
+    lat1,lon1,lat2,lon2 = float(sys.argv[1]),float(sys.argv[2]),float(sys.argv[3]),float(sys.argv[4]),
